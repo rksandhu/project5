@@ -1,1 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Form</title>
+</head>
+<body style="background-image: url('https://source.unsplash.com/random'); background-size: cover;">
+
+<div style="width: 50%; margin: auto; background-color: #f4f4f4; padding: 20px; border-radius: 10px;">
+    <form action="/submit_form" method="get">
+<!--       <img src="https://source.unsplash.com/random/50x50" alt=""> -->
+        <label for="music">What is your genre of music?</label><br>
+        <input type="text" id="music" name="music"><br>
+        <p>Do you have a pet?</p>
+        <input type="radio" id="pet-yes" name="pet" value="yes">
+        <label for="pet-yes">Yes</label><br>
+        <input type="radio" id="pet-no" name="pet" value="no">
+        <label for="pet-no">No</label><br>
+      
+        <label for="petname">What is his name?</label><br>
+        <input type="text" id="petname" name="petname"><br>
+        <label for="sport">What is your favorite sport?</label><br>
+        <select id="sport" name="sport">
+            <option value="">Select...</option>
+            <option value="soccer">Soccer</option>
+            <option value="basketball">Basketball</option>
+            <option value="baseball">Baseball</option>
+            <option value="hockey">Hockey</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+</body>
+</html>
 
